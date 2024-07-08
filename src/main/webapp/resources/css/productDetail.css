@@ -175,6 +175,18 @@ body.productDetail{
     height: 50px;
     align-items: center;
 }
+.sticky2{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 98;
+    height: 50px;
+    align-items: center;
+}
+
+#prdNavbar {
+    transition: top 0.72s; /* 0.3s은 예시로 원하는 시간으로 조정 가능 */
+}
 
 /* 리뷰작성 버튼 */
 .reviewContainer{
@@ -436,6 +448,7 @@ body.productDetail{
     font-size: 1.2vw;
     font-weight: bolder;
     text-decoration: line-through;
+    padding-right: 8px;
 }
 #sls_prc{
     font-size: 1.2vw;
@@ -474,12 +487,15 @@ body.productDetail{
 }
 #mySelect {
     width: 30%;
+    border: 1px solid gray;
+    color: #333;
+    font-weight: 400;
 }
 .prdDtlInfo{
     padding-bottom: 20px;
 }
 .prdDtlInfo p{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-weight: 600;
     color: #333;
 }
@@ -487,16 +503,20 @@ body.productDetail{
     transition: background-color 0.3s;
 }
 .submitBtn:hover, .sendGift:hover {
-    background-color: red;
+    background-color: #073713;
     color: #fff
 }
 .prdSubmitBtn ul .cartBtnList button:hover{
-    background-color: red;
-    color: #fff
+    /*background-color: #fff;*/
+    /*color: #333*/
 }
 .smr_dsc{
     width: 85%;
 }
 #mySelect2{
     width: 30%;
+}
+.prcDis{
+    font-size: 1.2vw;
+    font-weight: bolder;
 }
