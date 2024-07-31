@@ -45,3 +45,7 @@ Build: Maven
 | 👩‍💻 Live    |  https://home-run-ball.com/       |
 | 💻  Monitor     |  https://monit.home-run-ball.com/       |
 | ☕️ Admin | https://admin.home-run-ball.com/        |
+
+## ERD
+
+![HOMERUN ERD](https://github.com/user-attachments/assets/19644b0e-69fa-445a-bba3-498c05cdc82a)
